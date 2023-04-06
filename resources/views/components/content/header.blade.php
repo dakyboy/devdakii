@@ -1,24 +1,29 @@
 <header>
     <nav class="nav-container">
         <a>
-            <div>
-                <p>Dev Dakii</p>
-            </div>
+            <p>Dev Dakii</p>
         </a>
-        <a>
-            <div class="nav-links">
-                <a href="#best-sellers-title">
-                    <p>Work</p>
-                </a>
-                <a href="#about-us-title">
-                    <p>About</p>
-                </a>
-                <a href="#about-us-title">
-                    <p>Contact</p>
-                </a>
-            </div>
-        </a>
+        <div class="nav-links">
+            <a href="#work">
+                <p>Work</p>
+            </a>
+            <a href="#about">
+                <p>About</p>
+            </a>
+            <a href="#contact">
+                <p>Contact</p>
+            </a>
+        </div>
     </nav>
+    <div id="title-header">
+        <div class="greeting-container">
+            <p id="greeting">Hello, i am </p>
+            <h1 id="title">Aaron Edaku.</h1>
+        </div>
+        <p id="sub-title">A mobile app developer.</p>
+        <p id="description">I love designing and developing native android applications built on strong backends.
+        </p>
+    </div>
 </header>
 
 <style>
@@ -53,6 +58,49 @@
 
     .nav-links a:hover {
         color: rgb(209, 211, 212);
-        box-shadow: 
+        box-shadow:
+    }
+
+
+    #title-header {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 1vh auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10vh 4vw;
+        max-width: 90vw;
+        max-height: 50vh;
+    }
+
+    .greeting-container {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: baseline;
+    }
+
+    #title,
+    #greeting, #description {
+        text-align: left;
+    }
+
+    #title,
+    #greeting {
+        margin: -1vw auto;
+    }
+
+    #title {
+        font-size: calc(1.5rem + 1.8vw);
+    }
+
+    #greeting,
+    #sub-title {
+        font-size: calc(1.3rem + 1.2vw);
+        margin: 1.1rem 1.5rem;
+    }
+
+    #description {
+        font-size: calc(1rem + 1vw);
+        padding: 0 2rem;
     }
 </style>
