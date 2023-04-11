@@ -32,6 +32,7 @@
         padding: .1rem;
         display: flex;
         flex-flow: column;
+        
     }
 
     .nav-container {
@@ -45,6 +46,7 @@
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-between;
+        background-color: rgb(11, 36, 71);
     }
 
     .nav-links {
@@ -58,7 +60,6 @@
 
     .nav-links a:hover {
         color: rgb(209, 211, 212);
-        box-shadow:
     }
 
 
