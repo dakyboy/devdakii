@@ -4,13 +4,13 @@
             <p>Dev Dakii</p>
         </a>
         <div class="nav-links">
-            <a href="#work">
+            <a href="#work-title">
                 <p>Work</p>
             </a>
-            <a href="#about">
+            <a href="#about-title">
                 <p>About</p>
             </a>
-            <a href="#contact">
+            <a href="#contact-title">
                 <p>Contact</p>
             </a>
         </div>
@@ -69,7 +69,9 @@
         margin: 10vh auto;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 10vh 4vw;
+        padding: 20vh 4vw;
+        height: 70vh;
+        max-height: 100vh;
         max-width: 90vw;
     }
 

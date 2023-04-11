@@ -1,3 +1,3 @@
-<section>
-    <h2>Work</h2>
+<section class="work-container">
+    <h2 id="work-title">Work</h2>
 </section>
