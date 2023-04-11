@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <x-content.page-description>
-        <x-slot:title>Dev Dakii: Full stack developer </x-slot:title>
-        <x-slot:description>Dev Dakii is a skilled full stack developer based in Jinja, Uganda, with expertise in
+        <x-slot:title>Aaron Edaku: Full stack developer </x-slot:title>
+        <x-slot:description>Aaron Edaku is a skilled full stack developer based in Jinja, Uganda, with expertise in
             front-end and back-end web and mobile development. Get professional web solutions for your business with Dev
             Dakii.
             Contact now!</x-slot:description>
@@ -24,23 +24,21 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            overflow: hidden;
+            
         }
 
         html {
             font-family: 'Roboto', sans-serif;
             min-height: 100%;
             font-size: 62.5%;
-            min-width: 90%;
-            margin: 0 auto;
-
+            overflow-x: hidden;
         }
 
         body {
             font-size: 1.6rem;
             min-height: 100vh;
             min-width: 300px;
-            margin: 0vh auto;
+            margin: 0 auto;
             background-color: rgb(3, 70, 148);
             color: #ffffff;
         }
@@ -57,6 +55,10 @@
 
 <body class="app-container">
 <x-content.header ></x-content.header>
+<x-content.main >
+    
+</x-content.main>
+<x-content.footer ></x-content.footer>
 </body>
 
 </html>

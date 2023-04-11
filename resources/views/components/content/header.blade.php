@@ -1,16 +1,16 @@
 <header>
     <nav class="nav-container">
         <a>
-            <p>Dev Dakii</p>
+            <p>Aaron Edaku</p>
         </a>
         <div class="nav-links">
-            <a href="#work">
+            <a href="#work-title">
                 <p>Work</p>
             </a>
-            <a href="#about">
+            <a href="#about-title">
                 <p>About</p>
             </a>
-            <a href="#contact">
+            <a href="#contact-title">
                 <p>Contact</p>
             </a>
         </div>
@@ -21,23 +21,26 @@
             <h1 id="title">Aaron Edaku.</h1>
         </div>
         <p id="sub-title">A mobile app developer.</p>
-        <p id="description">I love designing and developing native android applications built on strong backends.
+        <p id="description">I love designing and developing solutions built on robust backends and user friendly
+            frontends. I take my inspiration from nature, and can be found often taking my dog on walks, as I enjoy the
+            cool breeze brought forth by both Lake Victoria and The Source of The Nile .
         </p>
     </div>
 </header>
 
 <style>
     header {
-        width: 100%;
+        width: 100vw;
         padding: .1rem;
         display: flex;
         flex-flow: column;
+
     }
 
     .nav-container {
-        position: sticky;
+        position: fixed;
         top: 0;
-        width: 100%;
+        width: 100vw;
         flex: 1;
         padding: 2rem;
         margin: 0 auto;
@@ -45,6 +48,8 @@
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-between;
+        background-color: rgb(11, 36, 71);
+        overflow: hidden;
     }
 
     .nav-links {
@@ -58,19 +63,20 @@
 
     .nav-links a:hover {
         color: rgb(209, 211, 212);
-        box-shadow:
     }
 
 
     #title-header {
         display: flex;
         flex-flow: column wrap;
-        margin: 1vh auto;
+        margin: 10vh auto;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 10vh 4vw;
+        padding: 20vh 4vw;
+        height: 70vh;
+        max-height: 100vh;
         max-width: 90vw;
-        max-height: 50vh;
+
     }
 
     .greeting-container {
@@ -80,7 +86,8 @@
     }
 
     #title,
-    #greeting, #description {
+    #greeting,
+    #description {
         text-align: left;
     }
 
@@ -100,6 +107,7 @@
     }
 
     #description {
+        flex-grow: 1;
         font-size: calc(1rem + 1vw);
         padding: 0 2rem;
     }
