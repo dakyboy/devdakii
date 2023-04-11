@@ -42,7 +42,7 @@
         padding: 1rem .4rem;
         display: flex;
         flex-flow: row wrap;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: baseline;
         background-color: rgb(11, 36, 71);
         overflow: hidden;

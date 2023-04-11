@@ -56,6 +56,9 @@
 
 <body class="app-container">
 <x-content.header ></x-content.header>
+<x-content.main >
+    <x-slot:work></x-slot:work>
+</x-content.main>
 <x-content.footer ></x-content.footer>
 </body>
 
