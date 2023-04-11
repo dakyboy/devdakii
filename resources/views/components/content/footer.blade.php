@@ -38,7 +38,7 @@
 </footer>
 <style>
     .footer-link-container {
-        width: 100%;
+        width: 100vw;
         padding: 1rem .4rem;
         display: flex;
         flex-flow: row wrap;

@@ -1,7 +1,7 @@
 <header>
     <nav class="nav-container">
         <a>
-            <p>Dev Dakii</p>
+            <p>Aaron Edaku</p>
         </a>
         <div class="nav-links">
             <a href="#work-title">
@@ -21,18 +21,20 @@
             <h1 id="title">Aaron Edaku.</h1>
         </div>
         <p id="sub-title">A mobile app developer.</p>
-        <p id="description">I love designing and developing solutions built on robust backends and user friendly frontends. I take my inspiration from nature, and can be found often taking my dog on walks as I enjoy the cool breeze brought forth by both Lake Victoria and The Source of The Nile .
+        <p id="description">I love designing and developing solutions built on robust backends and user friendly
+            frontends. I take my inspiration from nature, and can be found often taking my dog on walks, as I enjoy the
+            cool breeze brought forth by both Lake Victoria and The Source of The Nile .
         </p>
     </div>
 </header>
 
 <style>
     header {
-        width: 100%;
+        width: 100vw;
         padding: .1rem;
         display: flex;
         flex-flow: column;
-        
+
     }
 
     .nav-container {
@@ -47,6 +49,7 @@
         align-items: center;
         justify-content: space-between;
         background-color: rgb(11, 36, 71);
+        overflow: hidden;
     }
 
     .nav-links {
@@ -73,6 +76,7 @@
         height: 70vh;
         max-height: 100vh;
         max-width: 90vw;
+
     }
 
     .greeting-container {
@@ -82,7 +86,8 @@
     }
 
     #title,
-    #greeting, #description {
+    #greeting,
+    #description {
         text-align: left;
     }
 
