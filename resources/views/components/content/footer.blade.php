@@ -42,9 +42,10 @@
         padding: 1rem .4rem;
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         align-items: baseline;
         background-color: rgb(11, 36, 71);
+        overflow: hidden;
     }
 
     .footer-link-container a {
@@ -54,5 +55,9 @@
 
     .footer-link-container a:hover {
         color: rgb(209, 211, 212);
+    }
+
+    .footer-link {
+        padding: .0rem 4rem;
     }
 </style>

@@ -21,7 +21,7 @@
             <h1 id="title">Aaron Edaku.</h1>
         </div>
         <p id="sub-title">A mobile app developer.</p>
-        <p id="description">I love designing and developing native android applications built on strong backends.
+        <p id="description">I love designing and developing solutions built on robust backends and user friendly frontends. I take my inspiration from nature, and can be found often taking my dog on walks as I enjoy the cool breeze brought forth by both Lake Victoria and The Source of The Nile .
         </p>
     </div>
 </header>
@@ -66,12 +66,11 @@
     #title-header {
         display: flex;
         flex-flow: column wrap;
-        margin: 1vh auto;
+        margin: 10vh auto;
         justify-content: flex-start;
         align-items: flex-start;
         padding: 10vh 4vw;
         max-width: 90vw;
-        max-height: 50vh;
     }
 
     .greeting-container {
@@ -101,6 +100,7 @@
     }
 
     #description {
+        flex-grow: 1;
         font-size: calc(1rem + 1vw);
         padding: 0 2rem;
     }
