@@ -1,5 +1,13 @@
 <section class="contact-container">
     <h2 id="contact-title">Contact</h2>
+    <p class="">Do you have a question, an idea, or a project you need help with?
+        Get in Touch with me!</p>
+    <form action="/foo/bar" method="POST">
+        <label for="email">Email address</label>
+
+        <input id="email" type="email">
+
+    </form>
 </section>
 <style>
     .contact-container {

@@ -5,7 +5,8 @@
 
             <p class="project-title">Roll & Scoop Joint</p>
             <picture>
-                <img src="https://res.cloudinary.com/the-pouch/image/upload/c_thumb,w_200,g_face/v1681213479/dev_dakii/rollnscoop_ss_1_it3p19.jpg"/>
+                <img
+                    src="https://res.cloudinary.com/the-pouch/image/upload/c_thumb,w_200,g_face/v1681213479/dev_dakii/rollnscoop_ss_1_it3p19.jpg" />
             </picture>
             <div class="project-description">
                 <p>Landing site for Ice cream rolls parlour.</p>
@@ -17,11 +18,11 @@
     </div>
 </section>
 <style>
-    .about-container,
     .contact-container,
+    .about-container,
     .work-container {
-        height: 100vh;
-        width: 100vw;
+        height: min-content;
+        width: 100%;
         padding: 2rem 2rem 2rem;
     }
 

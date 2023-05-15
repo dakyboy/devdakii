@@ -2,7 +2,8 @@
     <div class="footer-link">
         <div>
             <picture>
-                <img />
+                <img
+                    src="https://res.cloudinary.com/the-pouch/image/upload/v1684156813/dev_dakii/github-mark_tvak0g.svg" style="background-color: white"/>
             </picture>
         </div>
         <div>
@@ -14,7 +15,7 @@
     <div class="footer-link">
         <div>
             <picture>
-                <img />
+                <img src="https://res.cloudinary.com/the-pouch/image/upload/v1684157550/dev_dakii/Twitter_social_icons-square-white_i055wv.svg" />
             </picture>
         </div>
         <div>
@@ -26,7 +27,7 @@
     <div class="footer-link">
         <div>
             <picture>
-                <img />
+                <img src="https://res.cloudinary.com/the-pouch/image/upload/v1684158145/dev_dakii/icons8-linkedin_f5kynm.svg" style="background-color: white"/>
             </picture>
         </div>
         <div>
@@ -38,7 +39,7 @@
 </footer>
 <style>
     .footer-link-container {
-        width: 100vw;
+        width: 100%;
         padding: 1rem .4rem;
         display: flex;
         flex-flow: row wrap;
@@ -51,6 +52,7 @@
     .footer-link-container a {
         padding: .6rem .4rem;
         color: white;
+        text-align: left;
     }
 
     .footer-link-container a:hover {
@@ -59,5 +61,14 @@
 
     .footer-link {
         padding: .0rem 4rem;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-link img {
+        width: 4rem;
+        height: 4rem;
     }
 </style>
