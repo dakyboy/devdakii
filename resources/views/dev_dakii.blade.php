@@ -10,7 +10,8 @@
         <x-slot:description>Aaron Edaku is a skilled full stack developer based in Jinja, Uganda, with expertise in
             front-end and back-end web and mobile development. Get professional web solutions for your business with Dev
             Dakii.
-            Contact now!</x-slot:description>
+            Contact now!
+        </x-slot:description>
     </x-content.page-description>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,12 +25,12 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            
+            list-style: none;
         }
 
         html {
             font-family: 'Roboto', sans-serif;
-            min-height: 100%;
+            width: 100%;
             font-size: 62.5%;
             overflow-x: hidden;
         }
@@ -54,11 +55,11 @@
 </head>
 
 <body class="app-container">
-<x-content.header ></x-content.header>
-<x-content.main >
-    
-</x-content.main>
-<x-content.footer ></x-content.footer>
+    <x-content.header></x-content.header>
+    <x-content.main>
+
+    </x-content.main>
+    <x-content.footer></x-content.footer>
 </body>
 
 </html>

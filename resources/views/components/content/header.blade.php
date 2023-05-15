@@ -22,16 +22,14 @@
         </div>
         <p id="sub-title">A mobile app developer.</p>
         <p id="description">I love designing and developing solutions built on robust backends and user friendly
-            frontends. I take my inspiration from nature, and can be found often taking my dog on walks, as I enjoy the
-            cool breeze brought forth by both Lake Victoria and The Source of The Nile .
+            frontends.
         </p>
     </div>
 </header>
 
 <style>
     header {
-        width: 100vw;
-        padding: .1rem;
+        width: 100%;
         display: flex;
         flex-flow: column;
 
@@ -40,8 +38,7 @@
     .nav-container {
         position: fixed;
         top: 0;
-        width: 100vw;
-        flex: 1;
+        width: 100%;
         padding: 2rem;
         margin: 0 auto;
         display: flex;
@@ -68,14 +65,12 @@
 
     #title-header {
         display: flex;
-        flex-flow: column wrap;
-        margin: 10vh auto;
+        flex-flow: column nowrap;
+        margin: 0 auto;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 20vh 4vw;
-        height: 70vh;
-        max-height: 100vh;
-        max-width: 90vw;
+        padding: 42vh 4vw 20vh;
+        max-height: 90vh;
 
     }
 
