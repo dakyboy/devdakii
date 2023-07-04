@@ -3,7 +3,9 @@
         <a>
             <p>Aaron Edaku</p>
         </a>
-        <div class="nav-links">
+        <img src="/images/menu-icon.svg" id="open-menu-button" onclick="openMenu()">
+        <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()">
+        <div id="nav-links">
             <a href="#work-title">
                 <p>Work</p>
             </a>
@@ -49,16 +51,33 @@
         overflow: hidden;
     }
 
-    .nav-links {
-        display: flex;
+    #open-menu-button, #close-menu-button {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        z-index: 4;
     }
 
-    .nav-links a {
+    #close-menu-button {
+        z-index: -4;
+        display: none; 
+    }
+
+    #open-menu-button:hover, #close-menu-button:hover {
+        background-color: rgb(49, 99, 168);;
+    }
+
+    #nav-links {
+        display: none;
+        height: max-content;
+    }
+
+    #nav-links a {
         padding: 1rem;
         color: white;
     }
 
-    .nav-links a:hover {
+    #nav-links a:hover {
         color: rgb(209, 211, 212);
     }
 

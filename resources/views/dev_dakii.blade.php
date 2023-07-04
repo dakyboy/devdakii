@@ -60,6 +60,7 @@
 
     </x-content.main>
     <x-content.footer></x-content.footer>
+    <script src="/js/dakii.js"></script>
 </body>
 
 </html>
