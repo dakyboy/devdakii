@@ -3,19 +3,22 @@
         <a>
             <p>Aaron Edaku</p>
         </a>
-        <img src="/images/menu-icon.svg" id="open-menu-button" onclick="openMenu()">
-        <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()">
-        <div id="nav-links">
-            <a href="#work-title">
-                <p>Work</p>
-            </a>
-            <a href="#about-title">
-                <p>About</p>
-            </a>
-            <a href="#contact-title">
-                <p>Contact</p>
-            </a>
+        <div>
+            <img src="/images/menu-icon.svg" id="open-menu-button" onclick="openMenu()" class="hamburger">
+            <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()" class="hamburger">
+            <div id="nav-links">
+                <a href="#work-title">
+                    <p>Work</p>
+                </a>
+                <a href="#about-title">
+                    <p>About</p>
+                </a>
+                <a href="#contact-title">
+                    <p>Contact</p>
+                </a>
+            </div>
         </div>
+
     </nav>
     <div id="title-header">
         <div class="greeting-container">
@@ -41,7 +44,7 @@
         position: fixed;
         top: 0;
         width: 100%;
-        padding: 2rem;
+        padding: .5rem;
         margin: 0 auto;
         display: flex;
         flex-flow: row wrap;
@@ -51,25 +54,28 @@
         overflow: hidden;
     }
 
-    #open-menu-button, #close-menu-button {
+    #open-menu-button,
+    #close-menu-button {
         width: 32px;
         height: 32px;
         cursor: pointer;
-        z-index: 4;
     }
 
     #close-menu-button {
         z-index: -4;
-        display: none; 
+        width: 0;
+        height: 0;
     }
 
-    #open-menu-button:hover, #close-menu-button:hover {
-        background-color: rgb(49, 99, 168);;
+    #open-menu-button:hover,
+    #close-menu-button:hover {
+        background-color: rgb(49, 99, 168);
+        ;
     }
 
     #nav-links {
-        display: none;
-        height: max-content;
+        
+        height: 0;
     }
 
     #nav-links a {
