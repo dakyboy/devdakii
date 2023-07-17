@@ -1,25 +1,28 @@
 <header>
     <nav class="nav-container">
         <a>
-            <p>Aaron Edaku</p>
+            <p id="brand">Aaron Edaku</p>
         </a>
+
         <div>
             <img src="/images/menu-icon.svg" id="open-menu-button" onclick="openMenu()" class="hamburger">
             <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()" class="hamburger">
-            <div id="nav-links">
-                <a href="#work-title">
-                    <p>Work</p>
-                </a>
-                <a href="#about-title">
-                    <p>About</p>
-                </a>
-                <a href="#contact-title">
-                    <p>Contact</p>
-                </a>
-            </div>
+        </div>
+        <div id="nav-links">
+            <a href="#work-title">
+                <p>Work</p>
+            </a>
+            <a href="#about-title">
+                <p>About</p>
+            </a>
+            <a href="#contact-title">
+                <p>Contact</p>
+            </a>
         </div>
 
     </nav>
+
+
     <div id="title-header">
         <div class="greeting-container">
             <p id="greeting">Hello, i am </p>
@@ -40,22 +43,28 @@
 
     }
 
+    #brand {
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
     .nav-container {
         position: fixed;
         top: 0;
         width: 100%;
-        padding: .5rem;
+        height: 10vh;
         margin: 0 auto;
         display: flex;
-        flex-flow: row wrap;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         justify-content: space-between;
-        background-color: rgb(11, 36, 71);
-        overflow: hidden;
+        background-color: rgba(11, 36, 71);
     }
 
-    #open-menu-button,
-    #close-menu-button {
+    .hamburger {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
         width: 32px;
         height: 32px;
         cursor: pointer;
@@ -70,12 +79,14 @@
     #open-menu-button:hover,
     #close-menu-button:hover {
         background-color: rgb(49, 99, 168);
-        ;
     }
 
     #nav-links {
-        
-        height: 0;
+        padding-top: 4rem;
+        width: 100%;
+        opacity: 0;
+        background-color: rgba(11, 36, 71, .89);
+        display: flex;
     }
 
     #nav-links a {
