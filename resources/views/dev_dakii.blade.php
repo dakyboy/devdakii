@@ -42,6 +42,7 @@
             margin: 0 auto;
             background-color: rgb(3, 70, 148);
             color: #ffffff;
+            overflow-x: hidden;
         }
 
         .app-container {
@@ -50,6 +51,9 @@
             justify-content: space-between;
             align-items: center;
         }
+        .slide-content .scroller {
+  width: 1024px;
+}
     </style>
 
 </head>
