@@ -116,7 +116,7 @@
         align-items: flex-start;
         padding: 42vh 4vw 20vh;
         max-height: 90vh;
-
+        background-color: rgb(172, 188, 255);
     }
 
     .greeting-container {

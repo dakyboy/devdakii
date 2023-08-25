@@ -40,8 +40,6 @@
             min-height: 100vh;
             min-width: 300px;
             margin: 0 auto;
-            background-color: rgb(3, 70, 148);
-            color: #ffffff;
             overflow-x: hidden;
         }
 
@@ -51,9 +49,10 @@
             justify-content: space-between;
             align-items: center;
         }
+
         .slide-content .scroller {
-  width: 1024px;
-}
+            width: 1024px;
+        }
     </style>
 
 </head>
