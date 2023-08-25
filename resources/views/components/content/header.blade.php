@@ -9,13 +9,13 @@
             <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()" class="hamburger">
         </div>
         <div id="nav-links">
-            <a href="#work-title">
+            <a href="#work-title" onclick="closeMenu()">
                 <p>Work</p>
             </a>
-            <a href="#about-title">
+            <a href="#about-title" onclick="closeMenu()">
                 <p>About</p>
             </a>
-            <a href="#contact-title">
+            <a href="#contact-title" onclick="closeMenu()">
                 <p>Contact</p>
             </a>
         </div>
@@ -44,8 +44,9 @@
     }
 
     #brand {
-        padding-top: 2rem;
+        padding-top: 3rem;
         padding-left: 1rem;
+        color: black;
     }
 
     .nav-container {
@@ -58,7 +59,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        background-color: rgba(11, 36, 71);
+        background-color: rgb(183, 153, 255);
     }
 
     .hamburger {
@@ -71,6 +72,8 @@
     }
 
     #close-menu-button {
+        background-color: rgb(230, 255, 253);
+        opacity: .7;
         z-index: -4;
         width: 0;
         height: 0;
@@ -82,16 +85,22 @@
     }
 
     #nav-links {
-        padding-top: 4rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
         width: 100%;
-        opacity: 0;
-        background-color: rgba(11, 36, 71, .89);
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+        background-color:rgb(183, 153, 255);
     }
-
+    
     #nav-links a {
-        padding: 1rem;
-        color: white;
+        padding: 2rem;
+        color: black;
     }
 
     #nav-links a:hover {
