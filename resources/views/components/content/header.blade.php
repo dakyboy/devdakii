@@ -47,6 +47,7 @@
         padding-top: 3rem;
         padding-left: 1rem;
         color: black;
+        font-size: 2.5rem;
     }
 
     .nav-container {
@@ -101,6 +102,7 @@
     #nav-links a {
         padding: 2rem;
         color: black;
+        font-size: calc(3rem + 1vw);
     }
 
     #nav-links a:hover {
@@ -112,17 +114,15 @@
         display: flex;
         flex-flow: column nowrap;
         margin: 0 auto;
-        justify-content: flex-start;
         align-items: flex-start;
-        padding: 42vh 4vw 20vh;
-        max-height: 90vh;
-
+        padding: 40% 4% 20%;
+        background-color: rgb(172, 188, 255);
     }
 
     .greeting-container {
         display: flex;
-        flex-flow: row wrap;
-        align-items: baseline;
+        flex-flow: column;
+        align-items: flex-start;
     }
 
     #title,
@@ -133,22 +133,15 @@
 
     #title,
     #greeting {
-        margin: -1vw auto;
+        margin: 0 auto;
     }
 
     #title {
-        font-size: calc(1.5rem + 1.8vw);
+        font-size: calc(4.5rem + 1.5vw);
     }
 
     #greeting,
-    #sub-title {
-        font-size: calc(1.3rem + 1.2vw);
-        margin: 1.1rem 1.5rem;
-    }
-
-    #description {
-        flex-grow: 1;
-        font-size: calc(1rem + 1vw);
-        padding: 0 2rem;
+    #sub-title, #description {
+        font-size: calc(3.3rem + 1vw);
     }
 </style>
