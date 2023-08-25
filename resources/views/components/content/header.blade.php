@@ -58,7 +58,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        background-color: rgba(11, 36, 71);
+        background-color: rgb(183, 153, 255);
     }
 
     .hamburger {
@@ -85,13 +85,13 @@
         padding-top: 4rem;
         width: 100%;
         opacity: 0;
-        background-color: rgba(11, 36, 71, .89);
+        background-color: rgb(183, 153, 255);
         display: flex;
     }
 
     #nav-links a {
         padding: 1rem;
-        color: white;
+        color: black;
     }
 
     #nav-links a:hover {
