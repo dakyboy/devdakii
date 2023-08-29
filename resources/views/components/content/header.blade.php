@@ -113,11 +113,12 @@
     #title-header {
         display: flex;
         flex-flow: column nowrap;
-        margin: 0 auto;
-        margin-top: 20%;
         align-items: flex-start;
         background-color: rgb(172, 188, 255);
         max-width: 100%;
+        min-height: 100vh;
+        justify-content: center;
+        padding: 0 2rem 0;
     }
 
     .greeting-container {
@@ -132,19 +133,17 @@
         text-align: left;
     }
 
-    #title,
-    #greeting {
-        margin: 0 auto;
-    }
-
     #title {
-        font-size: calc(2rem + 1.5vw);
+        font-size: calc(4rem + 1.5vw);
     }
 
     #greeting,
     #sub-title,
     #description {
-        font-size: calc(1.5rem + 1vw);
+        font-size: calc(3.5rem + 1vw);
     }
-    #description 
+
+    #description{
+        margin-top: 8%;
+    }
 </style>
