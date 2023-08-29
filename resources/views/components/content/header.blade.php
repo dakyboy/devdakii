@@ -47,7 +47,7 @@
         padding-top: 3rem;
         padding-left: 1rem;
         color: black;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .nav-container {
@@ -96,9 +96,9 @@
         justify-content: center;
         align-items: center;
         visibility: hidden;
-        background-color:rgb(183, 153, 255);
+        background-color: rgb(183, 153, 255);
     }
-    
+
     #nav-links a {
         padding: 2rem;
         color: black;
@@ -114,9 +114,10 @@
         display: flex;
         flex-flow: column nowrap;
         margin: 0 auto;
+        margin-top: 20%;
         align-items: flex-start;
-        padding: 40% 4% 20%;
         background-color: rgb(172, 188, 255);
+        max-width: 100%;
     }
 
     .greeting-container {
@@ -137,11 +138,13 @@
     }
 
     #title {
-        font-size: calc(4.5rem + 1.5vw);
+        font-size: calc(2rem + 1.5vw);
     }
 
     #greeting,
-    #sub-title, #description {
-        font-size: calc(3.3rem + 1vw);
+    #sub-title,
+    #description {
+        font-size: calc(1.5rem + 1vw);
     }
+    #description 
 </style>
