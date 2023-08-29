@@ -5,6 +5,10 @@
         </a>
 
         <div>
+            {{-- <img src="https://res.cloudinary.com/the-pouch/image/upload/v1691599206/dev_dakii/menu-icon_ksrcyi.svg"
+                id="open-menu-button" onclick="openMenu()" class="hamburger">
+            <img src="https://res.cloudinary.com/the-pouch/image/upload/v1691599206/dev_dakii/close-icon_ctjs3l.svg"
+                id="close-menu-button" onclick="closeMenu()" class="hamburger"> --}}
             <img src="/images/menu-icon.svg" id="open-menu-button" onclick="openMenu()" class="hamburger">
             <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()" class="hamburger">
         </div>
@@ -40,7 +44,6 @@
         width: 100%;
         display: flex;
         flex-flow: column;
-
     }
 
     #brand {
@@ -96,9 +99,9 @@
         justify-content: center;
         align-items: center;
         visibility: hidden;
-        background-color:rgb(183, 153, 255);
+        background-color: rgba(183, 153, 255, .9);
     }
-    
+
     #nav-links a {
         padding: 2rem;
         color: black;
@@ -113,10 +116,12 @@
     #title-header {
         display: flex;
         flex-flow: column nowrap;
-        margin: 0 auto;
         align-items: flex-start;
-        padding: 40% 4% 20%;
         background-color: rgb(172, 188, 255);
+        max-width: 100%;
+        min-height: 100vh;
+        justify-content: center;
+        padding: 0 2rem 0;
     }
 
     .greeting-container {
@@ -131,17 +136,17 @@
         text-align: left;
     }
 
-    #title,
-    #greeting {
-        margin: 0 auto;
-    }
-
     #title {
-        font-size: calc(4.5rem + 1.5vw);
+        font-size: calc(4rem + 1.5vw);
     }
 
     #greeting,
-    #sub-title, #description {
-        font-size: calc(3.3rem + 1vw);
+    #sub-title,
+    #description {
+        font-size: calc(3.5rem + 1vw);
+    }
+
+    #description {
+        margin-top: 8%;
     }
 </style>
