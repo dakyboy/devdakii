@@ -5,6 +5,10 @@
         </a>
 
         <div>
+            {{-- <img src="https://res.cloudinary.com/the-pouch/image/upload/v1691599206/dev_dakii/menu-icon_ksrcyi.svg"
+                id="open-menu-button" onclick="openMenu()" class="hamburger">
+            <img src="https://res.cloudinary.com/the-pouch/image/upload/v1691599206/dev_dakii/close-icon_ctjs3l.svg"
+                id="close-menu-button" onclick="closeMenu()" class="hamburger"> --}}
             <img src="/images/menu-icon.svg" id="open-menu-button" onclick="openMenu()" class="hamburger">
             <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()" class="hamburger">
         </div>
@@ -40,14 +44,13 @@
         width: 100%;
         display: flex;
         flex-flow: column;
-
     }
 
     #brand {
         padding-top: 3rem;
         padding-left: 1rem;
         color: black;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .nav-container {
@@ -96,7 +99,7 @@
         justify-content: center;
         align-items: center;
         visibility: hidden;
-        background-color: rgb(183, 153, 255);
+        background-color: rgba(183, 153, 255, .9);
     }
 
     #nav-links a {
@@ -143,7 +146,7 @@
         font-size: calc(3.5rem + 1vw);
     }
 
-    #description{
+    #description {
         margin-top: 8%;
     }
 </style>
