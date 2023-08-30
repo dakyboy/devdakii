@@ -21,7 +21,6 @@
     <link rel="preload" href="{{ secure_asset('/css/devdakii.css') }}" as="style"
         onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        {{-- what ???? --}}
         <link rel="stylesheet" href="{{ secure_asset('/css/devdakii.css') }}">
     </noscript>
 
