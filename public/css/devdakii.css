@@ -1,14 +1,16 @@
-/*for mobile devices with max decive width of 1200*/
-@media screen and (max-width: 1400px) {
-
 
 /*for mobile devices with max decive width of 1200*/
-@media screen and (max-width: 870px) {
- 
+@media screen and (min-width: 500px) {
+    #title-header {
+        padding: 0 12rem;
+    }
 
 }
 
 /*for mobile devices with max decive width of 1200*/
-@media screen and (max-width: 500px) {
-
+@media screen and (min-width: 1400px) {
+    #title-header {
+    }
 }
+
+
