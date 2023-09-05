@@ -1,19 +1,21 @@
+/*for mobile devices with max decive width of 1200*/
+@media screen and (min-width: 500px) {}
 
 /*for mobile devices with max decive width of 1200*/
-@media screen and (min-width: 500px) {
-
-
-}
-
-/*for mobile devices with max decive width of 1200*/
-@media screen and (min-width: 1400px) {
-    body {
-        
-    }
+@media screen and (min-width: 1200px) {
+    body {}
 
     #title-header {
-        
+        color: aquamarine;
+    }
+
+    #nav-container {
+        display: flex;
+        position: inherit;
+    }
+
+    .hamburger {
+        /* opacity: 0; */
+        display: none;
     }
 }
-
-
