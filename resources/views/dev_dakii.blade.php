@@ -46,21 +46,18 @@
             min-width: 300px;
             max-width: 100%;
             margin: 0 auto;
-            background-color: rgb(183, 153, 255);
-            overflow-x: hidden;
-        }
-
-        .app-container {
             display: flex;
             flex-flow: column wrap;
             justify-content: space-between;
             align-items: center;
+            background-color: rgb(183, 153, 255);
+            overflow-x: hidden;
         }
     </style>
 
 </head>
 
-<body class="app-container">
+<body>
     <x-content.header></x-content.header>
     <x-content.main>
 

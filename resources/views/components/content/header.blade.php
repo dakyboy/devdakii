@@ -41,9 +41,9 @@
 
 <style>
     header {
-        width: 100%;
         display: flex;
         flex-flow: column;
+        align-items: center; 
     }
 
     #brand {
@@ -118,9 +118,10 @@
         flex-flow: column nowrap;
         align-items: flex-start;
         background-color: rgb(172, 188, 255);
-        max-width: 100%;
         min-height: 100vh;
+        max-width: 100%;
         justify-content: center;
+        margin-top: 10vh;
         padding: 0 2rem 0;
     }
 
