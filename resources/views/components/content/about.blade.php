@@ -16,6 +16,7 @@
 <style>
     .about-container {
         background-color: rgb(87, 108, 188);
+        color: white;
         display: flex;
         align-items: center;
         flex-flow: column wrap;

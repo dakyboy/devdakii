@@ -33,6 +33,9 @@
     .work-container {
         background-color: rgb(165, 215, 232);
         color: black;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
     }
 
     .projects-container {

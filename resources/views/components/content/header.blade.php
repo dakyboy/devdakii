@@ -91,7 +91,7 @@
         justify-content: center;
         align-items: center;
         visibility: hidden;
-        background-color: rgba(183, 153, 255, .9);
+        background-color: rgba(183, 153, 255, 1);
     }
 
     #nav-links a {

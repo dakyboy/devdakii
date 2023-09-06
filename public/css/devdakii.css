@@ -6,16 +6,27 @@
     body {}
 
     #title-header {
-        color: aquamarine;
+        flex-flow: column nowrap;
+    }
+    #title,
+    #greeting,
+    #sub-title,
+    #description {
+        padding: 0 18rem;
     }
 
-    #nav-container {
-        display: flex;
-        position: inherit;
+    #nav-links {
+        position: static;
+        visibility: visible;
     }
 
     .hamburger {
         /* opacity: 0; */
-        display: none;
+    }
+
+    .contact-container,
+    .about-container,
+    .work-container {
+        padding: 0 50%;
     }
 }
