@@ -1,9 +1,19 @@
 /*for mobile devices with max decive width of 1200*/
-@media screen and (min-width: 500px) {}
+@media screen and (min-width: 500px) {
+    .contact-container,
+    .about-container,
+    .work-container {
+        height: min-content;
+        width: 100%;
+        padding: 2rem 2rem 2rem;
+    }
+}
 
 /*for mobile devices with max decive width of 1200*/
 @media screen and (min-width: 1200px) {
-    body {}
+    body {
+        /* font-size: 5rem; */
+    }
 
     #title-header {
         flex-flow: column nowrap;
@@ -27,6 +37,10 @@
     .contact-container,
     .about-container,
     .work-container {
-        padding: 0 50%;
+        padding: 0 20%;
+    }
+
+    .about-container {
+        flex-flow: row;
     }
 }

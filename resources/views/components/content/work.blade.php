@@ -18,13 +18,7 @@
     </div>
 </section>
 <style>
-    .contact-container,
-    .about-container,
-    .work-container {
-        height: min-content;
-        width: 100%;
-        padding: 2rem 2rem 2rem;
-    }
+    
 
     .work-container h2 {
         margin-bottom: 2rem;
