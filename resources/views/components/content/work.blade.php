@@ -18,13 +18,7 @@
     </div>
 </section>
 <style>
-    .contact-container,
-    .about-container,
-    .work-container {
-        height: min-content;
-        width: 100%;
-        padding: 2rem 2rem 2rem;
-    }
+    
 
     .work-container h2 {
         margin-bottom: 2rem;
@@ -33,6 +27,9 @@
     .work-container {
         background-color: rgb(165, 215, 232);
         color: black;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
     }
 
     .projects-container {

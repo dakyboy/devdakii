@@ -18,6 +18,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap"
         rel="stylesheet">
+    <link rel="preload" href="{{ secure_asset('/css/devdakii.css') }}" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="{{ secure_asset('/css/devdakii.css') }}">
+    </noscript>
 
     <style>
         /*Reset*/
@@ -36,27 +41,22 @@
         }
 
         body {
-            font-size: 1.6rem;
             min-height: 100vh;
             min-width: 300px;
             max-width: 100%;
             margin: 0 auto;
-            background-color: rgb(183, 153, 255);
-            overflow-x: hidden;
-        }
-
-        .app-container {
             display: flex;
             flex-flow: column wrap;
             justify-content: space-between;
             align-items: center;
+            background-color: rgb(183, 153, 255);
+            overflow-x: hidden;
         }
-
     </style>
 
 </head>
 
-<body class="app-container">
+<body>
     <x-content.header></x-content.header>
     <x-content.main>
 

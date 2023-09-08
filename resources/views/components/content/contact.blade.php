@@ -12,5 +12,8 @@
 <style>
     .contact-container {
         background-color: rgb(21, 152, 149);
+        display: flex;
+        flex-flow: column;
+        align-items: center;
     }
 </style>
