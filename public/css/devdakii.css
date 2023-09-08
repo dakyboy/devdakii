@@ -1,5 +1,9 @@
 /*for mobile devices with max decive width of 1200*/
 @media screen and (min-width: 500px) {
+    body {
+        font-size: 1.6rem;
+    }
+
     .contact-container,
     .about-container,
     .work-container {
@@ -12,12 +16,13 @@
 /*for mobile devices with max decive width of 1200*/
 @media screen and (min-width: 1200px) {
     body {
-        /* font-size: 5rem; */
+        font-size: 2rem;
     }
 
     #title-header {
         flex-flow: column nowrap;
     }
+
     #title,
     #greeting,
     #sub-title,
@@ -28,10 +33,6 @@
     #nav-links {
         position: static;
         visibility: visible;
-    }
-
-    .hamburger {
-        /* opacity: 0; */
     }
 
     .contact-container,

@@ -41,7 +41,6 @@
         }
 
         body {
-            font-size: 1.6rem;
             min-height: 100vh;
             min-width: 300px;
             max-width: 100%;
