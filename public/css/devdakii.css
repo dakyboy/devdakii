@@ -1,5 +1,5 @@
-/*for mobile devices with max decive width of 1200*/
-@media screen and (min-width: 500px) {
+/*for mobile devices with max decive width of 500*/
+@media screen and (min-width: 300px) {
     body {
         font-size: 1.6rem;
     }
