@@ -1,4 +1,4 @@
-<section class="about-container">
+<section id="about-container">
     <h2 id="about-title">About</h2>
     <p class="about-me-desc">I take my inspiration from nature, and can be found often taking my dog on walks, as I enjoy
         the
@@ -14,16 +14,17 @@
 </section>
 <x-content.myTools></x-content.myTools>
 <style>
-    .about-container {
+    #about-container {
         background-color: rgb(87, 108, 188);
         color: white;
         display: flex;
         align-items: center;
         flex-flow: column wrap;
         width: 100%;
+        scroll-margin-top: 10vh;
     }
 
-    .about-container img {
+    #about-container img {
         padding: 1rem;
         box-shadow: rgba(222, 6, 150, 0.881) 0px -50px 36px -28px inset;
     }

@@ -1,12 +1,12 @@
 /*for mobile devices with max decive width of 500*/
 @media screen and (min-width: 300px) {
     body {
-        font-size: 1.6rem;
+        font-size: calc(1.6rem + 1.5vw);
     }
 
-    .contact-container,
-    .about-container,
-    .work-container {
+    #contact-container,
+    #about-container,
+    #work-container {
         height: min-content;
         width: 100%;
         padding: 2rem 2rem 2rem;
@@ -16,7 +16,7 @@
 /*for mobile devices with max decive width of 1200*/
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 2rem;
+        font-size: calc(1.6rem + .5vw);
     }
 
     #title-header {
@@ -35,13 +35,13 @@
         visibility: visible;
     }
 
-    .contact-container,
-    .about-container,
-    .work-container {
+    #contact-container,
+    #about-container,
+    #work-container {
         padding: 0 20%;
     }
 
-    .about-container {
+    #about-container {
         flex-flow: row;
     }
 }

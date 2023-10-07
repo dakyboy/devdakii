@@ -13,13 +13,13 @@
             <img src="/images/close-icon.svg" id="close-menu-button" onclick="closeMenu()" class="hamburger">
         </div>
         <div id="nav-links">
-            <a href="#work-title" onclick="closeMenu()">
+            <a href="#work-container" onclick="closeMenu()">
                 <p>Work</p>
             </a>
-            <a href="#about-title" onclick="closeMenu()">
+            <a href="#about-container" onclick="closeMenu()">
                 <p>About</p>
             </a>
-            <a href="#contact-title" onclick="closeMenu()">
+            <a href="#contact-container" onclick="closeMenu()">
                 <p>Contact</p>
             </a>
         </div>
