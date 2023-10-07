@@ -1,4 +1,4 @@
-<section class="work-container">
+<section id="work-container">
     <h2 id="work-title">Work</h2>
     <div class="projects-container">
         <div class="project-container">
@@ -20,17 +20,17 @@
 <style>
     
 
-    .work-container h2 {
+    #work-container h2 {
         margin-bottom: 2rem;
     }
 
-    .work-container {
+    #work-container {
         background-color: rgb(165, 215, 232);
         color: black;
         display: flex;
         flex-flow: column;
         align-items: center;
-        scroll-padding-top: 10vh;
+        scroll-margin-top: 10vh;
     }
 
     .projects-container {

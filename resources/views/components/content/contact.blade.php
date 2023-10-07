@@ -1,4 +1,4 @@
-<section class="contact-container">
+<section id="contact-container">
     <h2 id="contact-title">Contact</h2>
     <p class="">Do you have a question, an idea, or a project you need help with?
         Get in Touch with me!</p>
@@ -10,7 +10,7 @@
     </form>
 </section>
 <style>
-    .contact-container {
+    #contact-container {
         background-color: rgb(21, 152, 149);
         display: flex;
         flex-flow: column;
