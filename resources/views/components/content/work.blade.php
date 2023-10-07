@@ -30,6 +30,7 @@
         display: flex;
         flex-flow: column;
         align-items: center;
+        scroll-padding-top: 10vh;
     }
 
     .projects-container {
