@@ -21,6 +21,7 @@
         align-items: center;
         flex-flow: column wrap;
         width: 100%;
+        scroll-margin-top: 10vh;
     }
 
     #about-container img {
