@@ -2,12 +2,12 @@
     <h2 id="contact-title">Contact</h2>
     <p class="">Do you have a question, an idea, or a project you need help with?
         Get in Touch with me!</p>
-    <form action="/foo/bar" method="POST">
-        <label for="email">Email address</label>
 
-        <input id="email" type="email">
-
-    </form>
+    <form action="mailto:eaaron25@gmail.com" method="post" enctype="text/plain" id="contact-me-form">
+         Name:<br><input type="text" name="cName"> <br>
+         Message:<br><input type="text" name="message"><br>
+         <input type="submit" value="Send" class="button-1">
+      </form>
 </section>
 <style>
     #contact-container {
@@ -17,4 +17,41 @@
         align-items: center;
         scroll-margin-top: 10vh;
     }
+
+    #contact-me-form {
+      align-self: flex-start;
+    }
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
 </style>
