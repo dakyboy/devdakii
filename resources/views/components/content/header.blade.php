@@ -1,6 +1,6 @@
 <header>
     <nav class="nav-container">
-        <a>
+        <a href="#" style="text-decoration:none;">
             <p id="brand">Aaron Edaku</p>
         </a>
 
@@ -16,11 +16,11 @@
             <a href="#work-container" onclick="closeMenu()">
                 <p>Work</p>
             </a>
-            <a href="#about-container" onclick="closeMenu()">
-                <p>About</p>
-            </a>
             <a href="#contact-container" onclick="closeMenu()">
                 <p>Contact</p>
+            </a>
+            <a href="#about-container" onclick="closeMenu()">
+                <p>About</p>
             </a>
         </div>
 

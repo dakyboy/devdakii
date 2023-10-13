@@ -20,6 +20,7 @@
 
     #contact-me-form {
       align-self: flex-start;
+      margin-top: 2rem;
     }
 
 /* CSS */
@@ -31,18 +32,14 @@
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
   line-height: 20px;
-  list-style: none;
-  margin: 0;
+  margin-top: 2rem;
   outline: none;
   padding: 10px 16px;
-  position: relative;
   text-align: center;
-  text-decoration: none;
   transition: color 100ms;
   vertical-align: baseline;
   user-select: none;
