@@ -32,18 +32,4 @@
     #description {
         text-align: left;
     }
-
-    #title {
-        font-size: calc(4rem + 1.5vw);
-    }
-
-    #greeting,
-    #sub-title,
-    #description {
-        font-size: calc(3.5rem + 1vw);
-    }
-
-    #description {
-        margin-top: 8%;
-    }
 </style>

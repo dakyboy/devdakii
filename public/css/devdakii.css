@@ -11,6 +11,20 @@
         width: 100%;
         padding: 2rem 2rem 2rem;
     }
+
+    #title {
+        font-size: calc(4rem + 2.5vw);
+    }
+
+    #greeting,
+    #sub-title,
+    #description {
+        font-size: calc(2.5rem + 2vw);
+    }
+
+    #description {
+        margin-top: 8%;
+    }
 }
 
 /*for mobile devices with max decive width of 1200*/
@@ -27,7 +41,17 @@
     #greeting,
     #sub-title,
     #description {
-        padding: 0 18rem;
+        padding: 0 36rem;
+    }
+
+    #title {
+        font-size: calc(4rem + .5vw);
+    }
+
+    #greeting,
+    #sub-title,
+    #description {
+        font-size: calc(2.5rem + 1vw);
     }
 
     #nav-links {
@@ -43,5 +67,10 @@
 
     #about-container {
         flex-flow: row;
+    }
+
+    #contact-me-form {
+        align-self: flex-start;
+        margin-top: 2rem;
     }
 }

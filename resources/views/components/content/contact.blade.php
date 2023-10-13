@@ -18,11 +18,6 @@
         scroll-margin-top: 10vh;
     }
 
-    #contact-me-form {
-      align-self: flex-start;
-      margin-top: 2rem;
-    }
-
 /* CSS */
 .button-1 {
   background-color: #EA4C89;
