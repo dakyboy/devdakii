@@ -25,12 +25,18 @@
     #description {
         margin-top: 8%;
     }
+
+    #contact-me-form {
+        align-self: flex-start;
+        margin-top: 2rem;
+        padding: 2rem;
+      }
 }
 
 /*for mobile devices with max decive width of 1200*/
 @media screen and (min-width: 1200px) {
     body {
-        font-size: calc(1.6rem + .5vw);
+        font-size: calc(1.6rem + .2vw);
     }
 
     #title-header {
@@ -41,7 +47,7 @@
     #greeting,
     #sub-title,
     #description {
-        padding: 0 36rem;
+        padding: 0 32rem;
     }
 
     #title {
@@ -70,7 +76,6 @@
     }
 
     #contact-me-form {
-        align-self: flex-start;
-        margin-top: 2rem;
+        align-self: center;
     }
 }
