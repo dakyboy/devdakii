@@ -3,9 +3,9 @@
     <p class="">Do you have a question, an idea, or a project you need help with?
         Get in Touch with me!</p>
 
-    <form action="mailto:eaaron25@gmail.com" method="post" enctype="text/plain" id="contact-me-form">
-        Name:<br><input type="text" name="cName"> <br>
-        Message:<br><input type="text" name="message"><br>
+    <form action="mailto:eaaron25@gmail.com?subject=Salutations&body=Hi, Aaron" method="post" enctype="text/plain" id="contact-me-form">
+        Subject:<br><input type="text" name="subject"> <br>
+        Message:<br><input type="text" name="body"><br>
         <input type="submit" value="Send" class="button-1">
     </form>
     <a aria-label="Chat on WhatsApp" href="https://wa.me/256759720699"> <img alt="Chat on WhatsApp"
