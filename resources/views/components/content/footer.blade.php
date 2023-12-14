@@ -2,8 +2,8 @@
     <div class="footer-link">
         <div>
             <picture>
-                <img
-                    src="https://res.cloudinary.com/the-pouch/image/upload/v1684156813/dev_dakii/github-mark_tvak0g.svg" style="background-color: white"/>
+                <img src="https://res.cloudinary.com/the-pouch/image/upload/v1684156813/dev_dakii/github-mark_tvak0g.svg"
+                    style="background-color: white" />
             </picture>
         </div>
         <div>
@@ -15,7 +15,8 @@
     <div class="footer-link">
         <div>
             <picture>
-                <img src="https://res.cloudinary.com/the-pouch/image/upload/v1684157550/dev_dakii/Twitter_social_icons-square-white_i055wv.svg" />
+                <img
+                    src="https://res.cloudinary.com/the-pouch/image/upload/v1684157550/dev_dakii/Twitter_social_icons-square-white_i055wv.svg" />
             </picture>
         </div>
         <div>
@@ -27,7 +28,8 @@
     <div class="footer-link">
         <div>
             <picture>
-                <img src="https://res.cloudinary.com/the-pouch/image/upload/v1684158145/dev_dakii/icons8-linkedin_f5kynm.svg" style="background-color: white"/>
+                <img src="https://res.cloudinary.com/the-pouch/image/upload/v1684158145/dev_dakii/icons8-linkedin_f5kynm.svg"
+                    style="background-color: white" />
             </picture>
         </div>
         <div>
@@ -45,13 +47,11 @@
         flex-flow: row wrap;
         justify-content: center;
         align-items: baseline;
-        background-color: rgb(11, 36, 71);
         overflow: hidden;
     }
 
     .footer-link-container a {
         padding: .6rem .4rem;
-        color: white;
         text-align: left;
     }
 

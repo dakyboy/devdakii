@@ -13,7 +13,6 @@
         display: flex;
         flex-flow: column nowrap;
         align-items: flex-start;
-        background-color: rgb(172, 188, 255);
         min-height: 100vh;
         max-width: 100%;
         justify-content: center;

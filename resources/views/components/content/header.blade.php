@@ -25,11 +25,7 @@
         </div>
 
     </nav>
-
-
-
 </header>
-
 <style>
     header {
         display: flex;
@@ -41,7 +37,7 @@
     #brand {
         padding-top: 3rem;
         padding-left: 1rem;
-        color: black;
+        color: rgb(250 250 250);
         font-size: 2.5rem;
     }
 
@@ -52,10 +48,9 @@
         height: 10vh;
         margin: 0 auto;
         display: flex;
-        flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        background-color: rgb(183, 153, 255);
+        background-color: rgb(113 113 122);
     }
 
     .hamburger {
@@ -80,25 +75,7 @@
         background-color: rgb(49, 99, 168);
     }
 
-    #nav-links {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        visibility: hidden;
-        background-color: rgba(183, 153, 255, 1);
-    }
 
-    #nav-links a {
-        padding: 2rem;
-        color: black;
-        font-size: calc(3rem + 1vw);
-    }
 
     #nav-links a:hover {
         color: rgb(209, 211, 212);
