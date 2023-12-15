@@ -13,7 +13,6 @@
         display: flex;
         flex-flow: column nowrap;
         align-items: flex-start;
-        background-color: rgb(172, 188, 255);
         min-height: 100vh;
         max-width: 100%;
         justify-content: center;
@@ -31,19 +30,5 @@
     #greeting,
     #description {
         text-align: left;
-    }
-
-    #title {
-        font-size: calc(4rem + 1.5vw);
-    }
-
-    #greeting,
-    #sub-title,
-    #description {
-        font-size: calc(3.5rem + 1vw);
-    }
-
-    #description {
-        margin-top: 8%;
     }
 </style>

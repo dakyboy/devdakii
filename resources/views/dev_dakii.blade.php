@@ -42,6 +42,7 @@
         }
 
         body {
+            background-color: rgb(250 245 255);
             min-height: 100vh;
             min-width: 300px;
             max-width: 100%;
@@ -50,7 +51,6 @@
             flex-flow: column wrap;
             justify-content: space-between;
             align-items: center;
-            background-color: rgb(183, 153, 255);
             overflow-x: hidden;
         }
     </style>

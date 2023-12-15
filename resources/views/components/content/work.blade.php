@@ -18,15 +18,11 @@
     </div>
 </section>
 <style>
-    
-
     #work-container h2 {
         margin-bottom: 2rem;
     }
 
     #work-container {
-        background-color: rgb(165, 215, 232);
-        color: black;
         display: flex;
         flex-flow: column;
         align-items: center;
@@ -41,15 +37,14 @@
     .project-container {
         display: flex;
         flex-flow: column nowrap;
-        background-color: rgba(0, 0, 0, 0.45);
         gap: 2rem 1rem;
         justify-content: space-between;
         align-items: center;
-        border: thick solid white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
     .project-container:hover {
-        border: thick solid blue;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     }
 
     .project-title {
@@ -61,12 +56,12 @@
     }
 
     .project-container p {
-        color: white;
         text-align: center;
+        color: rgb(249 250 251);
     }
 
     .project-description {
-        background-color: gray;
+        background-color: rgb(63 63 70);
         width: 100%;
         padding: 2rem;
     }

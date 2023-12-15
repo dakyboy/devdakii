@@ -1,6 +1,7 @@
 <section id="about-container">
     <h2 id="about-title">About</h2>
-    <p class="about-me-desc">I take my inspiration from nature, and can be found often taking my dog on walks, as I enjoy
+    <p class="about-me-desc">I take my inspiration from nature, and can be found often taking my dog on walks, as I
+        enjoy
         the
         cool breeze brought forth by both Lake Victoria and The Source of The Nile
     </p>
@@ -15,8 +16,6 @@
 <x-content.myTools></x-content.myTools>
 <style>
     #about-container {
-        background-color: rgb(87, 108, 188);
-        color: white;
         display: flex;
         align-items: center;
         flex-flow: column wrap;
