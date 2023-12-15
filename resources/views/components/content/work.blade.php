@@ -57,10 +57,11 @@
 
     .project-container p {
         text-align: center;
+        color: rgb(249 250 251);
     }
 
     .project-description {
-        background-color: gray;
+        background-color: rgb(63 63 70);
         width: 100%;
         padding: 2rem;
     }
