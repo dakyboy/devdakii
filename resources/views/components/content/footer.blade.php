@@ -16,7 +16,7 @@
         <div>
             <picture>
                 <img
-                    src="https://res.cloudinary.com/the-pouch/image/upload/v1684157550/dev_dakii/Twitter_social_icons-square-white_i055wv.svg" />
+                    src="https://res.cloudinary.com/the-pouch/image/upload/v1684157550/dev_dakii/Twitter_social_icons-square-white_i055wv.svg" style="background-color: black"/>
             </picture>
         </div>
         <div>
@@ -28,8 +28,8 @@
     <div class="footer-link">
         <div>
             <picture>
-                <img src="https://res.cloudinary.com/the-pouch/image/upload/v1684158145/dev_dakii/icons8-linkedin_f5kynm.svg"
-                    style="background-color: white" />
+                <img
+                    src="https://res.cloudinary.com/the-pouch/image/upload/v1684158145/dev_dakii/icons8-linkedin_f5kynm.svg" />
             </picture>
         </div>
         <div>

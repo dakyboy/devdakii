@@ -34,7 +34,6 @@
         }
 
         html {
-            font-family: 'Roboto', sans-serif;
             width: 100%;
             font-size: 62.5%;
             overflow-x: hidden;

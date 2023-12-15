@@ -26,6 +26,10 @@
         align-items: flex-start;
     }
 
+    #title {
+        color: rgb(100 116 139);
+    }
+
     #title,
     #greeting,
     #description {
