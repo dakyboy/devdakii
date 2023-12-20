@@ -16,7 +16,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        visibility: hidden;
+        display: none;
         background-color: rgb(250 245 255);
         
     }
@@ -62,7 +62,6 @@
         font-size: calc(1.6rem + .2vw);
     }
     .nav-container {
-        position: relative;
         align-items: baseline;
     }
 
@@ -71,10 +70,12 @@
     }
 
     #nav-links {
-        height: 100%;
-        width: 100%;
+        height: max-content;
+        width: max-content;
+        position: static;
         display: flex;
         flex-flow: row nowrap;
+        justify-content: flex-end;
         background-color: rgb(113 113 122);
     }
 
@@ -96,6 +97,7 @@
     #brand {
         
     }
+
     #title {
         font-size: calc(4rem + .5vw);
     }
@@ -104,11 +106,6 @@
     #sub-title,
     #description {
         font-size: calc(2.5rem + 1vw);
-    }
-
-    #nav-links {
-        position: static;
-        visibility: visible;
     }
 
     #contact-container,
