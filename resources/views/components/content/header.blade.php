@@ -73,8 +73,4 @@
     #close-menu-button:hover {
         background-color: rgb(49, 99, 168);
     }
-
-    #nav-links a:hover {
-        color: rgb(209, 211, 212);
-    }
 </style>

@@ -14,7 +14,6 @@ function openMenu() {
 }
 
 function closeMenu() {
-    console.log(getComputedStyle(menu).position);
     if (getComputedStyle(menu).position == "fixed") {
         menu.style.display = "none";
         openMenuButton.style.zIndex = "4";
