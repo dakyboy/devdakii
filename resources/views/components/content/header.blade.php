@@ -45,10 +45,9 @@
         position: fixed;
         top: 0;
         width: 100%;
-        height: 10vh;
+        height: max-content;
         margin: 0 auto;
         display: flex;
-        align-items: flex-start;
         justify-content: space-between;
         background-color: rgb(113 113 122);
     }
@@ -74,8 +73,6 @@
     #close-menu-button:hover {
         background-color: rgb(49, 99, 168);
     }
-
-
 
     #nav-links a:hover {
         color: rgb(209, 211, 212);

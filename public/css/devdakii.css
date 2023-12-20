@@ -61,6 +61,14 @@
     body {
         font-size: calc(1.6rem + .2vw);
     }
+    .nav-container {
+        position: relative;
+        align-items: baseline;
+    }
+
+    .hamburger {
+        display: none;
+    }
 
     #nav-links {
         height: 100%;
