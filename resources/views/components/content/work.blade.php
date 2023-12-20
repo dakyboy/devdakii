@@ -26,7 +26,6 @@
         display: flex;
         flex-flow: column;
         align-items: center;
-        scroll-margin-top: 10vh;
     }
 
     .projects-container {

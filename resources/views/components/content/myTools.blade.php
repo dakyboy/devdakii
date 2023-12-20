@@ -1,4 +1,4 @@
-<section class="tools-container">
+<section id="tools-container">
     <div class=".tools">
         <h2>My Tools</h2>
 
@@ -47,9 +47,8 @@
         list-style: circle;
     }
 
-    .tools-container {
+    #tools-container {
         display: flex;
         flex-flow: column;
-        scroll-margin-top: 10vh;
     }
 </style>
